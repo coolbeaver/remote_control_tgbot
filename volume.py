@@ -26,7 +26,7 @@ def volume_set(vlm):
 
 
 def google_start(url):
-    cmd = f"sudo -u norbert google-chrome-stable --no-sandbox {url}&"
+    cmd = f"google-chrome-stable {url}&"
 
     returned_value = os.system(cmd)
     print('returned value:', returned_value)
